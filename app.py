@@ -12,6 +12,10 @@ Single-page layout:
 import streamlit as st
 import streamlit.components.v1 as components
 import os, re, json, base64, tempfile
+# Auto-create placeholder signs if missing
+import subprocess, os
+if not os.path.exists("signs") or len([f for f in os.listdir("signs") if f.endswith(".mp4")]) < 10:
+    subprocess.run(["python", "create_placeholder_signs.py"], check=False)
 from pathlib import Path
 
 # ─── Streamlit version check ─────────────────────────────────────────────────
