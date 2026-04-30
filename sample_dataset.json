@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "category": "การตรวจ",
+    "original": "กรุณางดอาหารก่อนเข้ารับการตรวจ",
+    "expected_simplified": "ไม่กินก่อนตรวจ",
+    "expected_signs": ["ไม่", "กิน", "ก่อน", "ตรวจ"],
+    "audio_file": "sample_01.wav",
+    "notes": "Common pre-examination instruction"
+  },
+  {
+    "id": 2,
+    "category": "ยา",
+    "original": "รับประทานยาเม็ดวันละ 2 ครั้ง หลังอาหาร",
+    "expected_simplified": "กินยา 2 ครั้งต่อวัน หลังอาหาร",
+    "expected_signs": ["กิน", "ยา", "หลัง", "อาหาร"],
+    "audio_file": "sample_02.wav",
+    "notes": "Medication dosage instruction"
+  },
+  {
+    "id": 3,
+    "category": "การพักผ่อน",
+    "original": "กรุณานอนพักผ่อนและงดออกกำลังกาย",
+    "expected_simplified": "นอนและไม่เดิน",
+    "expected_signs": ["นอน", "ไม่", "เดิน"],
+    "audio_file": "sample_03.wav",
+    "notes": "Post-procedure rest instruction"
+  },
+  {
+    "id": 4,
+    "category": "การสื่อสาร",
+    "original": "โปรดแจ้งให้ทราบหากมีอาการปวด",
+    "expected_simplified": "บอกถ้าปวด",
+    "expected_signs": ["บอก", "ปวด"],
+    "audio_file": "sample_04.wav",
+    "notes": "Pain reporting instruction"
+  },
+  {
+    "id": 5,
+    "category": "การดื่มน้ำ",
+    "original": "ต้องดื่มน้ำมากหลังการตรวจ",
+    "expected_simplified": "ดื่มน้ำมากหลังตรวจ",
+    "expected_signs": ["ดื่ม", "น้ำ", "มาก", "หลัง", "ตรวจ"],
+    "audio_file": "sample_05.wav",
+    "notes": "Post-examination hydration"
+  },
+  {
+    "id": 6,
+    "category": "การตรวจเลือด",
+    "original": "ห้ามรับประทานอาหารก่อนเจาะเลือด",
+    "expected_simplified": "ห้ามกินก่อนเลือด",
+    "expected_signs": ["ห้าม", "กิน", "ก่อน", "เลือด"],
+    "audio_file": "sample_06.wav",
+    "notes": "Blood test fasting instruction"
+  },
+  {
+    "id": 7,
+    "category": "การรอ",
+    "original": "กรุณานั่งรอเจ้าหน้าที่พยาบาลก่อน",
+    "expected_simplified": "นั่งรอพยาบาล",
+    "expected_signs": ["นั่ง", "รอ", "พยาบาล"],
+    "audio_file": "sample_07.wav",
+    "notes": "Waiting room instruction"
+  },
+  {
+    "id": 8,
+    "category": "การนัดหมาย",
+    "original": "แพทย์จะมาตรวจในตอนเช้าพรุ่งนี้",
+    "expected_simplified": "หมอมาตรวจเช้าพรุ่งนี้",
+    "expected_signs": ["หมอ", "มา", "ตรวจ", "เช้า", "พรุ่งนี้"],
+    "audio_file": "sample_08.wav",
+    "notes": "Doctor visit schedule"
+  },
+  {
+    "id": 9,
+    "category": "การตรวจ",
+    "original": "กรุณางดน้ำหลังเที่ยงคืน",
+    "expected_simplified": "ไม่ดื่มน้ำหลังคืน",
+    "expected_signs": ["ไม่", "ดื่ม", "น้ำ", "หลัง", "คืน"],
+    "audio_file": "sample_09.wav",
+    "notes": "NPO (nothing by mouth) after midnight"
+  },
+  {
+    "id": 10,
+    "category": "การพักผ่อน",
+    "original": "ควรนอนหลับพักผ่อนให้เพียงพอ",
+    "expected_simplified": "นอนให้เพียงพอ",
+    "expected_signs": ["นอน"],
+    "audio_file": "sample_10.wav",
+    "notes": "Sleep hygiene recommendation"
+  },
+  {
+    "id": 11,
+    "category": "ยา",
+    "original": "รับประทานยาทุก 8 ชั่วโมง ครั้งละ 1 เม็ด",
+    "expected_simplified": "กินยาทุก 8 ชม. 1 เม็ด",
+    "expected_signs": ["กิน", "ยา", "ครั้ง", "เม็ด"],
+    "audio_file": "sample_11.wav",
+    "notes": "Regular dosage schedule"
+  },
+  {
+    "id": 12,
+    "category": "ความปลอดภัย",
+    "original": "ระวังอย่าลื่นล้มในห้องน้ำ",
+    "expected_simplified": "ระวังล้มในน้ำ",
+    "expected_signs": ["ระวัง", "น้ำ"],
+    "audio_file": "sample_12.wav",
+    "notes": "Fall prevention in bathroom"
+  }
+]

@@ -1,0 +1,24 @@
+# Smart Medical Sign Display System — requirements
+# ติดตั้ง: pip install -r requirements.txt
+
+# ─── Core UI ──────────────────────────────────────────────
+streamlit>=1.34.0
+
+# ─── Speech-to-Text (เลือกอย่างใดอย่างหนึ่ง) ─────────────
+# แนะนำ: faster-whisper (เร็วกว่า ~4x บน CPU)
+faster-whisper>=1.0.0
+# หรือใช้ openai-whisper (ต้องการ torch)
+# openai-whisper>=20231117
+# torch>=2.0.0
+# torchaudio>=2.0.0
+
+# ─── NLP ──────────────────────────────────────────────────
+pythainlp>=4.0.2
+
+# ─── Placeholder video generator ─────────────────────────
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ─── Audio processing ─────────────────────────────────────
+pydub>=0.25.1
