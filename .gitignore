@@ -4,3 +4,4 @@ signs/*.mp4
 .DS_Store
 venv/
 .env
+ffmpeg-8.1-essentials_build/ 
