@@ -128,7 +128,7 @@ pip install -r requirements.txt
 
 ## ⬇️ ดาวน์โหลดไฟล์วิดีโอภาษามือ
 ดาวน์โหลด signs.zip แล้วแตกไฟล์ไว้ในโฟลเดอร์โปรเจค:
-👉 [ดาวน์โหลด signs.zip](ใส่ Google Drive link ที่นี่)
+👉 [ดาวน์โหลด signs.zip]([ใส่ Google Drive link ที่นี่](https://drive.google.com/file/d/1aVyyFPBJ-XoKGV5bYMKQFPEWtwH4m4D9/view))
 
 ### Google Colab
 
