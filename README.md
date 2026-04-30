@@ -125,6 +125,10 @@ cd smart_medical_sign
 pip install -r requirements.txt
 ```
 
+## ⬇️ ดาวน์โหลดไฟล์วิดีโอภาษามือ
+ดาวน์โหลด signs.zip แล้วแตกไฟล์ไว้ในโฟลเดอร์โปรเจค:
+👉 [ดาวน์โหลด signs.zip](ใส่ Google Drive link ที่นี่)
+
 ### Google Colab
 
 ```python
