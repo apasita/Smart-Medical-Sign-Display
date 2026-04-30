@@ -3,6 +3,7 @@
 > **University NLP Project** — Converting Spoken Medical Thai Instructions  
 > into Simplified Text and Sign Language Representation
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smart-medical-sign-display-hmswyi5mwjwux5mmdgyoan.streamlit.app/)
 ---
 
 ## 📋 Table of Contents
