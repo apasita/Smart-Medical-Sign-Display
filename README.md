@@ -186,17 +186,18 @@ print(result["simplified"])  # ไม่กินก่อนตรวจ
 ## File Structure <a name="files"></a>
 
 ```
-smart_medical_sign/
-├── app.py                          # Streamlit UI (main entry point)
-├── nlp_pipeline.py                 # NLP logic (importable module)
-├── requirements.txt                # Python dependencies
-├── sample_dataset.json             # 12 sample medical sentences
-├── Smart_Medical_Sign_Colab.ipynb  # Google Colab notebook
-├── sign_images/                    # (Optional) real sign images
-│   ├── กิน.png
-│   ├── ไม่.png
-│   └── ...
-└── README.md                       # This file
+Smart-Medical-Sign-Display/
+├── app.py
+├── nlp_pipeline.py
+├── intent_data.py
+├── sign_data.py
+├── create_placeholder_signs.py
+├── requirements.txt
+├── sample_dataset.json
+├── Smart_Medical_Sign_Colab.ipynb
+├── sign_images/
+├── signs/              ← มีแค่ .gitkeep (วิดีโออยู่ใน Google Drive)
+└── README.md           
 ```
 
 ---
